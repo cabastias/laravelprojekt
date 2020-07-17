@@ -17,7 +17,7 @@
                         <a href="{{ url('notes/view', $note['slug']) }}">{{ $note['title'] }}</a><br>
                     @endforeach
                     <hr>
-                    <a href="{{ URL::previous() }}" class="btn btn-success">Create new note</a>
+                    <a href="{{ url('notes/create') }}" class="btn btn-success">Create new note</a>
                 </div>
             </div>
         </div>
